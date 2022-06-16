@@ -14,6 +14,12 @@
 		09A3AF60285B8B21000EA705 /* estee_lauder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09A3AF5E285B8B21000EA705 /* estee_lauder.xcdatamodeld */; };
 		09A3AF62285B8B25000EA705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A3AF61285B8B25000EA705 /* Assets.xcassets */; };
 		09A3AF65285B8B25000EA705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A3AF63285B8B25000EA705 /* LaunchScreen.storyboard */; };
+		09A3AF6D285B97D1000EA705 /* new arrivals ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3AF6C285B97D1000EA705 /* new arrivals ViewController.swift */; };
+		09A3AF6F285B9D77000EA705 /* hydration ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3AF6E285B9D77000EA705 /* hydration ViewController.swift */; };
+		09A3AF71285B9D80000EA705 /* pores ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3AF70285B9D80000EA705 /* pores ViewController.swift */; };
+		09A3AF73285B9D8A000EA705 /* anti aging ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3AF72285B9D8A000EA705 /* anti aging ViewController.swift */; };
+		09A3AF75285B9D99000EA705 /* under eye ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3AF74285B9D99000EA705 /* under eye ViewController.swift */; };
+		09A3AF77285BA23B000EA705 /* browse ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3AF76285BA23B000EA705 /* browse ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		09A3AF61285B8B25000EA705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09A3AF64285B8B25000EA705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A3AF66285B8B25000EA705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A3AF6C285B97D1000EA705 /* new arrivals ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "new arrivals ViewController.swift"; sourceTree = "<group>"; };
+		09A3AF6E285B9D77000EA705 /* hydration ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "hydration ViewController.swift"; sourceTree = "<group>"; };
+		09A3AF70285B9D80000EA705 /* pores ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "pores ViewController.swift"; sourceTree = "<group>"; };
+		09A3AF72285B9D8A000EA705 /* anti aging ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "anti aging ViewController.swift"; sourceTree = "<group>"; };
+		09A3AF74285B9D99000EA705 /* under eye ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "under eye ViewController.swift"; sourceTree = "<group>"; };
+		09A3AF76285BA23B000EA705 /* browse ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "browse ViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,12 @@
 				09A3AF57285B8B21000EA705 /* SceneDelegate.swift */,
 				09A3AF59285B8B21000EA705 /* ViewController.swift */,
 				09A3AF5B285B8B21000EA705 /* Main.storyboard */,
+				09A3AF76285BA23B000EA705 /* browse ViewController.swift */,
+				09A3AF74285B9D99000EA705 /* under eye ViewController.swift */,
+				09A3AF6E285B9D77000EA705 /* hydration ViewController.swift */,
+				09A3AF70285B9D80000EA705 /* pores ViewController.swift */,
+				09A3AF72285B9D8A000EA705 /* anti aging ViewController.swift */,
+				09A3AF6C285B97D1000EA705 /* new arrivals ViewController.swift */,
 				09A3AF61285B8B25000EA705 /* Assets.xcassets */,
 				09A3AF63285B8B25000EA705 /* LaunchScreen.storyboard */,
 				09A3AF66285B8B25000EA705 /* Info.plist */,
@@ -141,10 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A3AF71285B9D80000EA705 /* pores ViewController.swift in Sources */,
+				09A3AF75285B9D99000EA705 /* under eye ViewController.swift in Sources */,
 				09A3AF5A285B8B21000EA705 /* ViewController.swift in Sources */,
 				09A3AF56285B8B21000EA705 /* AppDelegate.swift in Sources */,
+				09A3AF73285B9D8A000EA705 /* anti aging ViewController.swift in Sources */,
+				09A3AF77285BA23B000EA705 /* browse ViewController.swift in Sources */,
 				09A3AF58285B8B21000EA705 /* SceneDelegate.swift in Sources */,
 				09A3AF60285B8B21000EA705 /* estee_lauder.xcdatamodeld in Sources */,
+				09A3AF6F285B9D77000EA705 /* hydration ViewController.swift in Sources */,
+				09A3AF6D285B97D1000EA705 /* new arrivals ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
